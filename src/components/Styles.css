@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Major+Mono+Display);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: "Major Mono Display", monospace;
+    text-transform: lowercase;
+}
+
+.landing {
+  /* Photo by Rodion Kutsaev on Unsplash */
+  background-image: url(../rodion-kutsaev-unsplash1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #c6cbef;
+  height: 80vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Major Mono Display", monospace;
+}
+
+.section-container {
+  max-width: 80%;
+  margin: 5% auto;
+}
