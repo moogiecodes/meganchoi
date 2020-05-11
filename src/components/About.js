@@ -4,7 +4,7 @@ import './Styles.css';
 export default function About() {
 
   return (
-    <div className="section-container">
+    <div className="full-page-container section-container">
       <h4>Blurb About Me</h4>
       <div className="mt-5">
         <p>

@@ -6,9 +6,9 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Connect from './Connect';
 import NotFound from './NotFound';
+import Footer from './Footer';
 
 export default function Routes() {
-
   return (
     <div>
       <Navbar />
@@ -27,6 +27,7 @@ export default function Routes() {
         </Route>
         <NotFound />
       </Switch>
+      <Footer />
     </div>
   );
 }
