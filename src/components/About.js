@@ -1,5 +1,6 @@
 import React from 'react';
 import './Styles.css';
+import ResumeSE from '../ResumeSE.pdf';
 
 export default function About() {
 
@@ -35,6 +36,9 @@ export default function About() {
         {/* 🌙 the Sailor Moon aesthetic and memes (I integrated this into my first project, which was a Sailor
         Moon-themed pomodoro timer you can see in my projects!) */}
       </div>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href={ResumeSE} role="button" target="_blank" rel="noopener noreferrer">View My Resume</a>
+      </p>
     </div>
   );
 }
