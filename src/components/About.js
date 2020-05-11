@@ -16,6 +16,8 @@ export default function About() {
           organizations I strive to be involved with, the methods I go about to
           consume news and information, and how I empathize with the people I
           meet.
+          <br />
+          {/* I believe advocating for representation is a powerful force in inspiring social change and spreading cultural awareness. Considering intersectionality, I aspire to build upon my cultural identity as an Asian American woman and sociology background by exercising an inclusive, growth-mindset in my work and beyond to empower those around me. Most importantly, I hope to answer the question of how I can contribute to making an impact for the greater good. Learning along the way will always be the constant, and I'm excited to begin my journey in tech! */}
         </p>
         <p>
           <span role="img" aria-label="pizza-emoji">🍕</span> Pizza is probably my favorite food (I don't really discriminate any
