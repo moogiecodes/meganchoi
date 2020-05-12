@@ -54,7 +54,7 @@ function Portfolio() {
           </a>
         </div>
       </div>
-      <p> <span role="img" aria-label="laptop">💻</span> Much more in progress <span role="img" aria-label="exclamation">❗️</span>
+      <p> <span role="img" aria-label="laptop">💻</span> Much more in progress <span role="img" aria-label="exclamation">❗️</span> (Check out my <a href="https://github.com/moogiecodes" target="_blank" rel="noopener noreferrer"> <abbr title="attribute">Github</abbr></a>)
       </p>
     </div>
   );
