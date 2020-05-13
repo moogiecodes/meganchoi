@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -35,4 +36,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .page {
+  position: absolute; */
+  /* top: 100px; */
+  /* left: 0;
+  right: 0;
+} */
+
+/* simple - enter transition 800ms, exit 200ms */
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 800ms linear 200ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 200ms linear;
 }

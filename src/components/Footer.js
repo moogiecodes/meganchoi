@@ -3,8 +3,11 @@ import './Styles.css';
 
 export default function Footer() {
   return (
-    <footer className="card-footer alert-light">
-      <small>Made with ♥ & ♫ by Moog (me).</small>
-    </footer>
+    <div className="">
+      {/* <div className="full-page-container"></div> */}
+      <footer className="card-footer alert-light">
+        <small>Made with ♥ & ♫ by Moog (me).</small>
+      </footer>
+    </div>
   );
 }

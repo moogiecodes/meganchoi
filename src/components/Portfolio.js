@@ -3,12 +3,28 @@ import './Styles.css';
 import warblerSS from '../images/warblerSS.png';
 import memgameSS from '../images/memgameSS.png';
 import smPomodoro from '../images/smPomodoro.png';
+import microblog from '../images/Microblog.gif';
 
 function Portfolio() {
 
   return (
     <div className="section-container">
       <h4 className="mt-5 mb-5">Portfolio</h4>
+      <div className="card mb-4">
+        <h3 className="card-header mb-2">Microblog</h3>
+        <span className="portfolio-container"><img src={microblog} alt="Microblog app homepage screenshot"></img></span>
+        <div className="card-body">
+          <p className="card-subtitle">A full-stack "micro" blogging application.</p>
+          <p className="card-text">Built with: React, Redux, Node.js/Express, PSQL, Reactstrap, Bootstrap, Axios</p>
+        </div>
+        <div className="card-body">
+          {/* <a href="" target="_blank" rel="noopener noreferrer">
+            <button type="button" className="btn btn-outline-info mr-1">Demo</button>
+          </a> */}
+          <a href="https://github.com/moogiecodes/redux-microblog" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-info">Github Repo</button>
+          </a>
+        </div>
+      </div>
       <div className="card mb-4">
         <h3 className="card-header mb-2">Warbler</h3>
         <span className="portfolio-container"><img src={warblerSS} alt="Warbler app homepage screenshot"></img></span>
