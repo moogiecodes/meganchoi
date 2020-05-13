@@ -4,8 +4,10 @@
 - React
 - HTML
 - CSS
+- Bootstrap
 - Netlify 
 
 ### Improvements/Additions needed:
-- mobile responsiveness
-- modal feature for about section "more blurbs"
+- Mobile responsiveness
+- React-modal feature for about section "more blurbs"
+- Image lazy loading
