@@ -4,7 +4,7 @@
 - React
 - HTML
 - CSS
-- Bootstrap
+- Bootstrap/Bootswatch
 - Netlify 
 
 ### Improvements/Additions needed:
