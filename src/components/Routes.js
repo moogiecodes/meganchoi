@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from "react-router";
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import Navbar from './Navbar';
+import NavbarMain from './Navbar';
 import Home from './Home';
 import About from './About';
 import Portfolio from './Portfolio';
@@ -13,7 +13,7 @@ import Footer from './Footer';
 export default function Routes() {
   return (
     <div>
-      <Navbar />
+      <NavbarMain />
       <Route render={({ location }) => (
         <TransitionGroup>
           <CSSTransition

@@ -1,25 +1,32 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import Navbar from 'react-bootstrap/Navbar';
 
-export default function Navbar() {
-
+export default function NavbarMain() {
+  // const [expanded, setExpanded] = useState(false);
+  // <nav className="navbar navbar-expand-sm navbar-light bg-light text-lowercase">
+  // const navStyle = {
+  //   maxHeight: '45vh'
+  // }
   return (
-    <nav className="navbar sticky-top navbar-expand-sm navbar-light bg-light text-lowercase">
-      {/* <div className="navbar-brand navbar-collapse mx-auto">megan choi</div> */}
-      <ul className="navbar-nav navbar-collapse mx-auto">
-        <NavLink className="m-2 nav-link" exact to="/">
-          home
+    <Navbar collapseOnSelect bg="light" expand="sm" className="text-lowercase static-top" id="navb">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" id="nav-btn" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <ul className="navbar-nav mr-auto">
+          <NavLink className="m-2 nav-link" exact to="/">
+            home
         </NavLink>
-        <NavLink className="m-2 nav-link" exact to="/about">
-          about
+          <NavLink className="m-2 nav-link" exact to="/about">
+            about
         </NavLink>
-        <NavLink className="m-2 nav-link" exact to="/portfolio">
-          portfolio
+          <NavLink className="m-2 nav-link" exact to="/portfolio">
+            portfolio
         </NavLink>
-        <NavLink className="m-2 nav-link" exact to="/connect">
-          connect
+          <NavLink className="m-2 nav-link" exact to="/connect">
+            connect
         </NavLink>
-      </ul>
-    </nav>
+        </ul>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }

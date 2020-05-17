@@ -1,8 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Major+Mono+Display);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
+html {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  margin: 0 auto;
+  width: 100%;
+  min-height: -webkit-fill-available;
+}
+
 body {
   font-family: 'Inconsolata', monospace;
+  width: 100vw;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -10,8 +19,22 @@ h1, h2, h3, h4, h5, h6, nav {
     text-transform: lowercase;
 }
 
-nav {
-  max-height: 4em;
+#navb {
+  max-height: 9vh;
+  min-height: 2em;
+  width: 100vw;
+}
+
+.navbar-toggler-icon {
+  top: 0;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+#responsive-navbar-nav{
+  background-color: white;
+  width: 100vw;
+  z-index: 1;
 }
 
 .landing {
