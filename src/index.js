@@ -8,12 +8,14 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faLinkedin,
   faGithub,
-  faSpotify
+  faSpotify,
+  faAngellist
 } from "@fortawesome/free-brands-svg-icons";
 library.add(
   faLinkedin,
   faGithub,
-  faSpotify
+  faSpotify,
+  faAngellist
 )
 
 ReactDOM.render(

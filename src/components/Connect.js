@@ -19,6 +19,11 @@ export default function Connect() {
             icon={['fab', 'github']}
             className="d-flex justify-content-center display-4 mx-5" />
         </a>
+        <a href="https://angel.co/u/meganchoi" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon
+            icon={['fab', 'angellist']}
+            className="d-flex justify-content-center display-4 mx-5" />
+        </a>
         <a href="https://www.linkedin.com/in/meganchoi/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon
             icon={['fab', 'linkedin']}
