@@ -2,12 +2,13 @@
 
 ## Created With:
 - React
-- HTML
-- CSS
-- Bootstrap/Bootswatch
+- JSX, HTML
+- CSS/Bootstrap/Bootswatch
 - Netlify 
 
 ### Improvements/Additions needed:
-- Mobile responsiveness
+- Improve mobile responsiveness for navbar
 - React-modal feature for about section "more blurbs"
 - Image lazy loading
+
+
