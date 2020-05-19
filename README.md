@@ -7,7 +7,7 @@
 - Netlify 
 
 ### Improvements/Additions needed:
-- Improve mobile responsiveness for navbar
+- Improve mobile responsiveness
 - React-modal feature for about section "more blurbs"
 - Image lazy loading
 

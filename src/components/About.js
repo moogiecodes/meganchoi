@@ -2,8 +2,9 @@ import React from 'react';
 import './Styles.css';
 import ResumeSE from '../ResumeSE.pdf';
 import Image from 'react-bootstrap/Image'
-import { Row } from 'react-bootstrap';
+// import { Row } from 'react-bootstrap';
 import profpic from '../images/profilepic.jpeg';
+import '../images/profilepic.jpeg';
 
 export default function About() {
   const emoji = {
@@ -11,15 +12,21 @@ export default function About() {
   }
   const pic = {
     width: '13em',
-    height: 'auto'
+    height: 'auto',
+    maxWidth: '65vw',
+    maxHeight: '20%'
   }
 
   return (
     <div className="full-page-container section-container">
       <h4>Blurb About Me</h4>
-      <Row>
-        <Image src={profpic} roundedCircle style={pic} className="ml-3" />
-      </Row>
+      <Image
+        src={profpic}
+        roundedCircle
+        style={pic}
+        className="ml-3"
+        alt="Profile photo"
+      />
       <div className="mb-4">
         <p>
           <span role="img" aria-label="palmtree-emoji" style={emoji}>🌴</span> I'm a full-stack software engineer originally from Los Angeles, CA.
