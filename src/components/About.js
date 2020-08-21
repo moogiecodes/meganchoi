@@ -4,6 +4,7 @@ import ResumeSE from '../ResumeSE.pdf';
 import Image from 'react-bootstrap/Image'
 // import { Row } from 'react-bootstrap';
 import profpic from '../images/profilepic.jpeg';
+import djpic1 from '../images/deejaypic1.jpeg';
 import '../images/profilepic.jpeg';
 
 export default function About() {
@@ -71,6 +72,16 @@ export default function About() {
         <p>
           <span role="img" aria-label="crescent-moon-emoji" style={emoji}>🌙</span> I'm a fan of Sailor Moon/anime aesthetic and memes (I integrated this into my first project, which was a Sailor Moon-themed pomodoro timer you can view in my portfolio!)
        </p>
+        <p>
+          <span role="img" aria-label="cat-emoji" style={emoji}>🐱</span> Mother to this cat baby, Deejay. (His IG if you were wondering: @deejay_kittycat)
+        </p>
+        <Image
+          src={djpic1}
+          roundedCircle
+          style={pic}
+          className="ml-3"
+          alt="Photo of Deejay my cat"
+        />
       </div>
     </div>
   );
