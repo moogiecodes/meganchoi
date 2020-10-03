@@ -1,6 +1,6 @@
 import React from 'react';
 import './Styles.css';
-import ResumeSE from '../ResumeSE.pdf';
+import ResumeSE from '../MChoi_Resume_Oct2020.pdf';
 import Image from 'react-bootstrap/Image'
 // import { Row } from 'react-bootstrap';
 import profpic from '../images/profilepic.jpeg';
